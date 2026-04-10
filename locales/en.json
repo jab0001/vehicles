@@ -1,0 +1,79 @@
+{
+  "message": {
+    "hello": "hello world"
+  },
+  "nav": {
+    "lines": "Lines",
+    "vehicles": "Vehicles",
+    "drivers": "Drivers",
+    "settings": "Settings",
+    "comapnies": "companies"
+  },
+  "components": {
+    "drawers": {
+      "releaseOnLine": {
+        "title": "Выпуск на линию",
+        "driver": {
+          "label": "Водитель (ФИО)",
+          "placeholder": "Выберете водителя",
+          "debt": "Задолжность {msg}",
+          "licenceDate": "Права до {msg}"
+        },
+        "vehicle": {
+          "label": "Автомобиль",
+          "placeholder": "Выберете автомобиль",
+          "cascoDate": "КАСКО до {msg}"
+        },
+        "inspection": {
+          "label": "Предрейсовый осмотр",
+          "placeholder": "Выберете дату осмотра",
+          "link": "Провести осмотр",
+          "btnAct": "Акт приема-передачи"
+        },
+        "rent": {
+          "title": "Договор аренды",
+          "btnOffer": "Договор аренды",
+          "offerNumber": "Номер договора (автоматически)",
+          "btnCreate": "Создать новый договор"
+        },
+        "btnSend": "Выпустить на линию"
+      }
+    }
+  },
+  "views": {
+    "vehicles": {
+      "title": "Автомобили парка",
+      "buttonAddCar": "Добавить автомобиль",
+      "buttonAddGroup": "Добавить группу"
+    },
+    "lines": {
+      "title": "На линии",
+      "setOnline": "Выпуск на линию",
+      "tableRows": {
+        "status": "Статус",
+        "date": "Дата",
+        "vehicle": "Автомобиль",
+        "driver": "Водитель",
+        "contract": "Договор аренды",
+        "responsible": "Ответственный"
+      }
+    },
+    "login": {
+      "title": "Authorization",
+      "placeholders": {
+        "email": "Please email",
+        "password": "Please password"
+      },
+      "btnLogin": "Sign in"
+    }
+  },
+  "helpers":{
+    "statuses":{
+      "accepted":"Accepted",
+      "challenger":"Challenger",
+      "fired":"Fired",
+      "refusal":"Refusal",
+      "review":"Review"
+    }
+  }
+}

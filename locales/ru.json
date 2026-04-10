@@ -1,0 +1,164 @@
+{
+  "message": {
+    "hello": "Привет"
+  },
+  "nav": {
+    "dashboard": "Дашборд",
+    "notifications": "Уведомления",
+    "lines": {
+      "lines": "На линии",
+      "now": "Сейчас на линии",
+      "changes": "Сменные водители",
+      "history": "История выпусков"
+    },
+    "vehicles": "Автомобили",
+    "workingShifts": "Распределение смен",
+    "salaryStatements": "Зарплатные ведомости",
+    "drivers": "Водители",
+    "inspections": "Осмотры",
+    "balanceOperations": "Расчеты",
+    "leasingPayments": "Лизинг",
+    "insurances": "Страхование",
+    "settings": {
+      "systemSettings": "Настройки системы",
+      "settings": "Настройки",
+      "companies": "Организации",
+      "counterparty": "Контрагенты",
+      "paymentTerminals": "Онлайн-эквайринг"
+    },
+    "referenceBook": {
+      "dismissal": "Причины увольнения",
+      "rent": "Шаблоны аренды",
+      "extraEquip": "Доп. начисления",
+      "parkingPlaces": "Стоянки",
+      "checkExtra": "Чек-лист осмотра",
+      "equipment": "Комплектация а/м",
+      "technicalInspectionsSchedule": "Шаблоны ТО",
+      "vehicleGroups" : "Группы автомобилей",
+      "conditions" : "Условия работы штатных водителей"
+    },
+    "fines": "Штрафы ПДД",
+    "downtime": "Простои",
+    "damages": "Ущербы",
+    "tollRoads": "Платные дороги",
+    "printableForms": "Печатные формы",
+    "reports": "Отчеты",
+    "stocks": {
+      "warehouses": "Склады",
+      "storages": "Места хранения",
+      "nomenclature": "Номенклатура",
+      "moving": "Перемещение",
+      "receipt": "Поступление",
+      "posting": "Оприходование",
+      "writeoff": "Списание",
+      "costitems": "Статьи затрат",
+      "balance": "Остатки"
+    },
+    "repair": "Ремонт",
+    "maintenance": "Техобслуживание"
+  },
+  "components": {
+    "drawers": {
+      "releaseOnLine": {
+        "title": "Выпуск на линию",
+        "driver": {
+          "label": "Водитель (ФИО)",
+          "placeholder": "Выберете водителя",
+          "debt": "Задолжность {msg}",
+          "licenceDate": "Права до {msg}"
+        },
+        "vehicle": {
+          "label": "Автомобиль",
+          "placeholder": "Выберете автомобиль",
+          "cascoDate": "КАСКО до {msg}"
+        },
+        "inspection": {
+          "label": "Предрейсовый осмотр",
+          "placeholder": "Выберете дату осмотра",
+          "link": "Провести осмотр",
+          "btnAct": "Акт приема-передачи"
+        },
+        "rent": {
+          "title": "Договор аренды",
+          "btnOffer": "Договор аренды",
+          "offerNumber": "Номер договора (автоматически)",
+          "btnCreate": "Создать новый договор"
+        },
+        "btnSend": "Выпустить на линию"
+      },
+      "vehicleCreate": {
+        "title": "Создать автомобиль",
+        "btnCreate": "Создать"
+      }
+    }
+  },
+  "views": {
+    "vehicles": {
+      "title": "Автомобили",
+      "buttonAddCar": "Добавить",
+      "buttonAddGroup": "Добавить группу",
+      "tableRows": {
+        "brand": "Марка",
+        "model": "Модель",
+        "status": "Статус",
+        "number": "Гос номер",
+        "carType": "Тип автомобиля",
+        "mileage": "Пробег"
+      }
+    },
+    "inspections": {
+      "title": "Осмотры",
+      "buttonAddInspection": "Провести осмотр",
+      "buttonClearSearch": "Сбросить всё",
+      "searchPlaceholder": "Поиск по гос. номеру, марке и водителю"
+    },
+    "lines": {
+      "title": "На линии",
+      "setOnline": "Выпустить на линию",
+      "tableRows": {
+        "status": "Статус",
+        "date": "Дата",
+        "vehicle": "Автомобиль",
+        "driver": "Водитель",
+        "contract": "Договор аренды",
+        "responsible": "Ответственный"
+      }
+    },
+    "drivers": {
+      "title": "Водители",
+      "btnAdd": "Добавить",
+      "searchPlaceholder": "Поиск по номеру и ФИО",
+      "clearLink": "Сбросить всё",
+      "tableRows": {
+        "status": "Статус",
+        "changes": "Изменен",
+        "number": "Номер",
+        "driver": "Водитель",
+        "citizenship": "Гражданство",
+        "category": "Категория",
+        "taxStatus": "Налоговый статус",
+        "licenceDate": "В/У до",
+        "duty": "Долг, ₽",
+        "balance": "Баланс, ₽",
+        "comment": "Комментарий"
+      }
+    },
+    "login": {
+      "title": "Авторизация",
+      "placeholders": {
+        "email": "Укажите email",
+        "password": "Введите пароль"
+      },
+      "btnLogin": "Войти"
+    }
+  },
+  "helpers": {
+    "statuses": {
+      "accepted": "Принят",
+      "challenger": "Претендент",
+      "fired": "Уволен",
+      "refusal": "Отказ",
+      "review": "На проверке"
+    }
+  }
+}
